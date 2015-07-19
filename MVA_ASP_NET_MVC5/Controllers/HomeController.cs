@@ -15,14 +15,14 @@ namespace MVA_ASP_NET_MVC5.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Descreva Sua aplicação.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contato da página.";
 
             return View();
         }

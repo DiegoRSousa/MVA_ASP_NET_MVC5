@@ -9,9 +9,9 @@ namespace MVA_ASP_NET_MVC5.Controllers
     public class OlaMundoController : Controller
     {
         // GET: OlaMundo
-        public string Index()
+        public ActionResult Index()
         {
-            return "Olá MVC 5";
+            return View();
         }
 
         public string TesteController()
