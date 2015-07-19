@@ -16,7 +16,7 @@ namespace MVA_ASP_NET_MVC5.Models
         public string Titulo { get; set; }
 
         [Required(ErrorMessage = "Digite o autor do livro")]
-        public int Autor { get; set; }
+        public string Autor { get; set; }
 
         public decimal Preco { get; set; }
 
