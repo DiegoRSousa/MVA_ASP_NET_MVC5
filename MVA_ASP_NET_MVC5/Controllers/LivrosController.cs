@@ -10,6 +10,7 @@ using MVA_ASP_NET_MVC5.Models;
 
 namespace MVA_ASP_NET_MVC5.Controllers
 {
+    [RoutePrefix("livros")]
     public class LivrosController : Controller
     {
         private BancoContexto db = new BancoContexto();
@@ -21,6 +22,7 @@ namespace MVA_ASP_NET_MVC5.Controllers
         }
 
         // GET: Livros/Details/5
+        [Route("detalhes-id")]
         public ActionResult Details(int? id)
         {
             if (id == null)
